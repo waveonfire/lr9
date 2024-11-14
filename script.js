@@ -3,7 +3,7 @@ let userScore = 0;
 let computerScore = 0;
 let rounds = 0;
 const cards = [6,7,8,9,10,2,3,4,11];
-const cardspics=["6.png","7.png","8.png","9.png","10.png","jack.png","queen.png","king.png","ace.png"];
+const cardspics=["images/6.png","images/7.png","images/8.png","images/9.png","images/10.png","images/jack.png","images/queen.png","images/king.png","images/ace.png"];
 
 document.getElementById("startbutton").addEventListener("click",startGame);
 document.getElementById("generatecards").addEventListener("click",dealCards);
